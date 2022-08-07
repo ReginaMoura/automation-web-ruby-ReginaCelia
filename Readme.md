@@ -2,7 +2,6 @@
 
 # Sobre o projeto
 Projeto de automação web utilizando Ruby + Cucumber          
-
 Esse projeto foi construído durante aulas do **Modulo 3 Turma-t6-t7**, curso organizado pelo William Silva [Qa.Coders](https://qacoders.com "Site da Qa.Coders")
 
 
@@ -50,9 +49,13 @@ cd
 bundler exec cucumber
 ```
 
-# Autor
 
+
+
+# Autor
 Regina Celia C Moura
+
+
 https://www.linkedin.com/
 
 
