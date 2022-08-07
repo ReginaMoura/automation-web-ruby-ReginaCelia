@@ -17,22 +17,5 @@ Cenario: Validar Menu Depoimentos
 
 Dado que eu acesse a home page do projeto Qa.Coders
 Quando clico em  "Depoimentos"
-Então visualizo o texto "O Qa.Coders é feito para os alunos"
+Então devo validar o texto "O Qa.Coders é feito para os alunos"
 
-
-
-
-
-# Esquema do Cenario: Validar Menu Home
-
-# Dado que eu acesse a home page do projeto Qa.Coders
-# Quando clico no menu "menu"
-# Então devo visualizar a informação "validação"
-
-# Exemplos:
-
-# |menu          | validação      |
-# |Sobre_nos     | "Sobre Nós"    |
-# |Depoimentos   | "Depoimentos"  |
-# |Parceiros     | "Parceiros"    |
-# |Fale_Conosco  | "Fale Consoco" |

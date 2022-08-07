@@ -17,14 +17,18 @@ Dado('que eu acesse a home page do projeto Qa.Coders') do
     sleep 2  
   end
 
-  
-  
-Quando('clico em  {string}') do |depoimentos|
+    Quando('clico em  {string}') do |depoimentos|
   home.click_link(depoimentos)
     sleep 2
   end
   
-
+  Então('devo validar o texto {string}') do |depoimentos|
+  home.validate_text_depoimentos(depoimentos)
+    sleep 2  
+  end
+  
+  
+  
 
   
 
