@@ -20,4 +20,10 @@ class Home < SitePrism::Page
 
       end
    end
+   
+   def validate_text_sobrenos(sobre_nos)
+      title_sobre_nos = find('#sobre-nos > div.MuiBox-root.css-1ln06le > h3')
+   end
 end
+
+
