@@ -11,9 +11,10 @@ Esse projeto foi construído durante aulas do **Modulo 3 Turma-t6-t7**, curso or
 - Instalar a versão recomendada  marcada por => sessão WITH DEVKIT
 
  ## Extensões - Vs Code
-- Vscode-icons VSCode Ruby 
-- Snippets and Syntax Highlight for Gherkin (Cucu
 - Ruby v0.28.1 
+- Vscode-icons 
+- VSCode Ruby 
+- Snippets and Syntax Highlight for Gherkin (Cucumber)
 - Gherkin Indent 
 - Feature Syntax Highlight and Snippets (Cucumber/Gherkin) 
 - Cucumber (Gherkin) Full Support
