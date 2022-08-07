@@ -5,8 +5,8 @@ Projeto de automação web utilizando Ruby + Cucumber
 Esse projeto foi construído durante aulas do **Modulo 3 Turma-t6-t7**, curso organizado pelo William Silva [Qa.Coders](https://qacoders.com "Site da Qa.Coders")
 
 
-## Pré Requisitos
-# Ruby
+# Pré Requisitos
+## Ruby
 - [Ruby] (https://rubyinstaller.org/downloads/) 
 - Instalar a versão recomendada  marcada por => sessão WITH DEVKIT
 
