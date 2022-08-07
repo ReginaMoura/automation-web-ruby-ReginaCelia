@@ -19,3 +19,9 @@ Dado que eu acesse a home page do projeto Qa.Coders
 Quando clico em  "Depoimentos"
 Então devo validar o texto "O Qa.Coders é feito para os alunos"
 
+Cenario: Validar Menu Parceiros
+
+Dado que eu acesse a home page do projeto Qa.Coders
+Quando clico em submenu "Parceiros"
+Então devo ter acesso ao menu "Parceiros"
+

@@ -18,7 +18,7 @@ Dado('que eu acesse a home page do projeto Qa.Coders') do
   end
 
     Quando('clico em  {string}') do |depoimentos|
-  home.click_link(depoimentos)
+    home.click_link(depoimentos)
     sleep 2
   end
   
@@ -26,6 +26,16 @@ Dado('que eu acesse a home page do projeto Qa.Coders') do
   home.validate_text_depoimentos(depoimentos)
     sleep 2  
   end
+
+  Quando('clico em submenu {string}') do |parceiros|
+    home.click_link(parceiros)
+    sleep 2
+  end
+  
+  Então('devo ter acesso ao menu {string}') do |parceiros|
+    home.validate_text_parceiros(parceiros)
+    sleep 2  
+  end  
   
   
   

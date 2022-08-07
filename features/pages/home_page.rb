@@ -28,5 +28,9 @@ class Home < SitePrism::Page
    def validate_text_depoimentos(depoimentos)
       title_depoimentos = find('#depoimentos > div.MuiBox-root.css-0 > div > h3')
    end
+   
+   def validate_text_parceiros(parceiros)
+      title_parceiros = find('#parceiros > h3')
+   end
 end
 
