@@ -1,6 +1,7 @@
 Before do |scenario|
-    Capybara.current_session.driver.browser.manage.delete_all_cookies
-    page.driver.quit
+Capybara.current_session.driver.browser.manage.delete_all_cookies
+#Capybara.current_session.driver.browser.manage.delete_cookie
+page.driver.quit
 end
 
 After do |scenario|
