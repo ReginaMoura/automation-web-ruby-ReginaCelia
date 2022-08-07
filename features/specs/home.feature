@@ -12,3 +12,13 @@ Cenario: Validar Menu Sobre nós
 Dado que eu acesse a home page do projeto Qa.Coders
 Quando clico no menu "Sobre nós"
 Então devo verificar a informação "Sobre nós"
+
+Cenario: Validar Menu Depoimentos
+
+Dado que eu acesse a home page do projeto Qa.Coders
+Quando clico em "Depoimentos"
+Então visualizo o texto "O Qa.Cordes é feito para alunos"
+
+
+
+

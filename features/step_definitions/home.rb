@@ -16,3 +16,12 @@ Dado('que eu acesse a home page do projeto Qa.Coders') do
     home.validate_text_sobrenos(title_sobre_nos)
     sleep 2  
   end
+
+  
+  Quando('clico em {string}') do |depoimentos|
+    home.click_link(depoimentos)
+    sleep 2
+  end
+  
+
+

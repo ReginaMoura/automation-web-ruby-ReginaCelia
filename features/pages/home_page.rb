@@ -26,4 +26,6 @@ class Home < SitePrism::Page
    end
 end
 
-
+def validate_text_depoimentos(depoimentos)
+   title_depoimentos = find('#depoimentos > div.MuiBox-root.css-0 > div > h3')
+   end
