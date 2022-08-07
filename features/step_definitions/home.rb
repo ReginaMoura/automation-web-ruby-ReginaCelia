@@ -18,10 +18,16 @@ Dado('que eu acesse a home page do projeto Qa.Coders') do
   end
 
   
-  Quando('clico em {string}') do |depoimentos|
-    home.click_link(depoimentos)
+  
+Quando('clico em  {string}') do |depoimentos|
+  home.click_link(depoimentos)
     sleep 2
   end
   
+
+
+  
+
+
 
 

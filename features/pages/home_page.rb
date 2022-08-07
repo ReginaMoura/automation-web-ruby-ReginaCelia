@@ -25,7 +25,3 @@ class Home < SitePrism::Page
       title_sobre_nos = find('#sobre-nos > div.MuiBox-root.css-1ln06le > h3')
    end
 end
-
-def validate_text_depoimentos(depoimentos)
-   title_depoimentos = find('#depoimentos > div.MuiBox-root.css-0 > div > h3')
-   end
