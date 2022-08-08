@@ -32,5 +32,8 @@ class Home < SitePrism::Page
    def validate_text_parceiros(parceiros)
       title_parceiros = find('#parceiros > h3')
    end
+   
+   def validate_text_fale_conosco(fale_conosco)
+         title_fale_conosco = find('#faleConosco')
+   end
 end
-

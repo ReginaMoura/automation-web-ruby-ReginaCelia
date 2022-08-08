@@ -25,3 +25,11 @@ Dado que eu acesse a home page do projeto Qa.Coders
 Quando clico em submenu "Parceiros"
 Então devo ter acesso ao menu "Parceiros"
 
+
+Cenario: Validar Menu Fale Conosco
+
+Dado que eu acesse a home page do projeto Qa.Coders
+Quando clico em "Fale Conosco"
+Então visualizo os links de canais de atendimento "Fale Conosco"
+
+
