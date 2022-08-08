@@ -22,6 +22,7 @@ Aprendemos  como criar um robô de testes voltados ao comportamento humano, foi 
 - Ruby Language Colorization
 
 ## Dependências Utilizadas
+Precisamos definir as dependências , configurar as dependências instaladas
 No arquivo "gemfile" (arquivo onde ficam as depedências configuradas)
 - gem 'capybara'
 - gem 'chromedriver-helper'
@@ -31,8 +32,17 @@ No arquivo "gemfile" (arquivo onde ficam as depedências configuradas)
 - gem 'site_prism' 
 - gem 'pry'
 
-## Arquivo Env.rb 
-O arquivo env.rb nele é declarado tudo que vamos precisar para executar no nosso projeto. 
+## Estruturar o projeto
+
+-  cucumber -- init criou as estruturas (pastas) abaixo:
+-  features         é onde estão as funcionalidades declaradas do projeto
+-  step_definitions é a etapa de ação do projeto
+-  support          e onde fica toda configuração do projeto
+Dentro da pasta support temos os arquivos :
+- env.rb           nele é declarado tudo que vamos precisar para executar o projeto quando você roda o cucumber ele vai ler esse arquivo primeiro
+- helper.rb        faz a comunicação com a interface
+- hooks.rb         onde ficam os elementos do projeto
+- page_helper.rb   um módulo que irá servir para instanciar as nossas classes(page objects)
 
 
 # Como executar o projeto
