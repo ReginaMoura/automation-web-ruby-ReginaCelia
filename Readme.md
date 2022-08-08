@@ -11,6 +11,7 @@ Aprendemos  como criar um robô de testes voltados ao comportamento humano, foi 
 - [Ruby] (https://rubyinstaller.org/downloads/) 
 - Instalar a versão recomendada  marcada por => sessão WITH DEVKIT
 
+
  ## Extensões - Vs Code
 - Ruby v0.28.1 
 - Vscode-icons 
@@ -31,6 +32,9 @@ No arquivo "gemfile" (arquivo onde ficam as depedências configuradas)
 - gem 'selenium-webdriver'
 - gem 'site_prism' 
 - gem 'pry'
+
+## Cucumber
+- Cucumber é uma ferramenta usada para executar testes de aceitação automatizados que foram criados em um formato BDD. Um de seus recursos mais destacados é a capacidade de realizar descrições funcionais de texto simples (escritas numa linguagem chamada Gherkin) como testes automatizados
 
 ## Estruturar o projeto
 

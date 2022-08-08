@@ -33,3 +33,16 @@ Quando clico em "Fale Conosco"
 Então visualizo os links de canais de atendimento "Fale Conosco"
 
 
+# Esquema do Cenario: Validar Menu Home
+
+# Dado que eu acesse a home page do projeto Qa.Coders
+# Quando clico no menu "menu"
+# Então devo visualizar a informação "validação"
+
+# Exemplos:
+
+# |menu          | validação      |
+# |Sobre_nos     | "Sobre Nós"    |
+# |Depoimentos   | "Depoimentos"  |
+# |Parceiros     | "Parceiros"    |
+# |Fale_Conosco  | "Fale Conosco" |
