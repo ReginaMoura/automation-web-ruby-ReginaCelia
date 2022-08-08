@@ -1,10 +1,9 @@
-# Projeto de Automação Web utilizando Ruby + Cucumber
+## Projeto de Automação Web utilizando Ruby + Cucumber
 
 # Sobre o projeto
-Projeto de automação web utilizando Ruby + Cucumber          
-Esse projeto foi construído durante aulas do **Modulo 3 Turma-t6-t7**, curso organizado pelo William Silva 
-[Qa.Coders] (https://qacoders.com "Site da Qa.Coders")
+Projeto de automação web utilizando Ruby + Cucumber
 
+Esse projeto foi construído durante aulas do **Modulo 3 Turma-t6-t7**, curso organizado pelo William Silva [Qa.Coders] (https://qacoders.com "Site da Qa.Coders"). Aprendemos  como criar um robô de testes voltados ao comportamento humano, foi possivel ver que através dos seus cenários o cucumber consegue substituir você nos testes da aplicação.
 
 # Pré Requisitos
 ## Ruby
@@ -52,13 +51,10 @@ bundler exec cucumber
 ```
 
 
-
-
-# Autor
+## Autor
 Regina Celia C Moura
 
-
-https://www.linkedin.com/
+https://www.linkedin.com/in/regina-celia-moura
 
 
 
